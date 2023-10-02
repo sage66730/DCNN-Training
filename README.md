@@ -44,13 +44,13 @@ Datas of PINN are splitted while runing.
 - To train the chemistry model(s) in the paper, run below:
 ```train
 cd ./scirpts/Chemistry 
-python train.py --root <path_to_data> -M <model_name> -m <molecule_abbreviation> -A <activation_function> --lr2 <lr_last_layer>
+python train.py --root <path_to_data> -M <model_name> -m <molecule_abbreviation> -A <activation_function>
 ```
 
 - To train the PINN model(s) from PDEBench in the paper, run below:
 ```train
 cd ./scirpts/PDEBench 
-python train.py --root <path_to_data> -M <scenario_name> -A <activation_function> --lr2 <lr_last_layer>
+python train.py --root <path_to_data> -M <scenario_name> -A <activation_function>
 ```
 
 ## Evaluation
