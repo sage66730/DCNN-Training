@@ -1,8 +1,6 @@
 # DCNN-Training
 This repository is the official implementation of [ON TRAINING DERIVATIVE-CONSTRAINED NEURAL NETWORKS](https://arxiv.org/abs/2030.12345). 
 
-![method_001](https://github.com/lbai-lab/integrated-activation-functions/assets/28528165/8da5d65b-42aa-478b-b9a6-a0f5b7ae27b8)
-
 We refer to the setting where the (partial) derivatives of a neural network’s (NN’s)
 predictions with respect to its inputs are used as additional training signal as a
 derivative-constrained (DC) NN. This situation is common in physics-informed
