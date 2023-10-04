@@ -1,16 +1,11 @@
 # DCNN-Training
-This repository is the official implementation of [ON TRAINING DERIVATIVE-CONSTRAINED NEURAL NETWORKS](https://arxiv.org/abs/2030.12345). 
+This repository is the official implementation of [On Training Derivative-Constrained Neural Network](https://arxiv.org/abs/2030.12345). 
 
 We refer to the setting where the (partial) derivatives of a neural network’s (NN’s)
 predictions with respect to its inputs are used as additional training signal as a
 derivative-constrained (DC) NN. This situation is common in physics-informed
-settings in the natural sciences. We propose an integrated RELU (IReLU) acti-
-vation function to improve training of DC NNs. We also investigate denormal-
-ization and label rescaling to help stabilize DC training. We evaluate our meth-
-ods on physics-informed settings including quantum chemistry and Scientific Ma-
-chine Learning (SciML) tasks. We demonstrate that existing architectures with
-IReLU activations combined with denormalization/label rescaling better incorpo-
-rate training signal provided by derivative constraints
+settings in the natural sciences. We propose an integrated RELU (IReLU) activation function to improve training of DC NNs. We also investigate denormalization and label rescaling to help stabilize DC training. We evaluate our methods on physics-informed settings including quantum chemistry and Scientific Machine Learning (SciML) tasks. We demonstrate that existing architectures with
+IReLU activations combined with denormalization/label rescaling better incorporate training signal provided by derivative constraints
 
 Benchmarked models: 
 - CGCNN [[`arXiv`](https://arxiv.org/abs/1710.10324)] 
