@@ -1,5 +1,5 @@
 # DCNN-Training
-This repository is the official implementation of [On Training Derivative-Constrained Neural Network](https://arxiv.org/abs/2030.12345). 
+This repository is the official implementation of [On Training Derivative-Constrained Neural Network](https://arxiv.org/abs/2310.01649). 
 
 We refer to the setting where the (partial) derivatives of a neural network’s (NN’s)
 predictions with respect to its inputs are used as additional training signal as a
