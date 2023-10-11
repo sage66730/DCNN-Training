@@ -61,5 +61,14 @@ You can download pretrained models here:
 - To be done
 
 ## Contributing
-- To be done
+If you found this paper useful, please cite our work:
+@article{dcnn2023,
+  title = {On Training Derivative-Constrained Neural Network},
+  author = {Author, First and Author, Second},
+  journal = {arXiv e-prints},
+  year = {2023},
+  eprint = {arXiv:2310.01649},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.LG}
+}
 
